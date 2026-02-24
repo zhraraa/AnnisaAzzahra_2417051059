@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 15px; background-color: antiquewhite;">
+        <img src="cat.jpg" alt="load" style="height: 100px; width: 100px; border-radius: 50%; object-fit: cover;">
+        <nav>
+            <a href="logo.html">Ke index.html</a>
+            <a href="blog.html">Ke Blog.html</a>
+            <a href="contact.html">Ke Contac.html</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Form Input Mahasiswa</h2>
+        
+        <form action="afterSubmit.html" method="post" target="_blank">
+            <label for="nama">Nama: </label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama"><p></p>
+
+            <label for="npm">NPM: </label>
+            <input type="text" id="npm" name="npm" placeholder="Masukkan npm"><p></p>
+        
+            <label for="kelas">Kelas: </label>
+            <select name="kelas" id="kelas">
+                <option value="kelas">Pilih Kelas</option>
+                <option value="kelas">A</option>
+                <option value="kelas">B</option>
+            </select>
+
+            <label for="kelas">Tanggal: </label>
+            <input type="date" id="tanggal" name="tanggal" placeholder="Masukkan tanggal"><p></p>
+
+            <label for="kelas">Waktu: </label>
+            <input type="time" name="waktu" id="waktu"><p></p>
+
+            <button>Submit</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>Ini footeer</p>
+    </footer>
+</body>
+</html>
